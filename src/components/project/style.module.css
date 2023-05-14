@@ -1,0 +1,34 @@
+.project{
+    border-top: 2px solid black;
+    padding-top: 0.8vw;
+    padding-bottom: 0.8vw;
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.project p{
+    font-size: 5vw;
+    margin: 0px;
+}
+.project p:nth-of-type(1){
+    margin-right: 0.75vw;
+}
+.project p:nth-of-type(2){
+    margin-left: 0.75vw;
+}
+.project:last-of-type{
+    border-bottom: 2px solid black;
+}
+.project .imgContainer{
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  width: 0;
+}
+.project img{
+    width: 10vw;
+}
+  
